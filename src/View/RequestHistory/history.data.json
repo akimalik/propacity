@@ -1,0 +1,62 @@
+{
+    "status": "success",
+    "data1": [
+        {
+            "requesID": "TMP-00001",
+            "templateName": "GA-Vascular_Treatment 1_New",
+            "userName": "Sapna Yadav",
+            "createdAt": "00-BBB-0000 , 00:00 PM",
+            "status": "Failed",
+            "updatedURLs": "20",
+            "failedURLs": "20"
+        },
+        {
+            "requesID": "TMP-00002",
+            "templateName": "GA-Vascular_Treatment 2_New",
+            "userName": "Sana",
+            "createdAt": "11-jan-2021 , 11:30 AM",
+            "status": "Waiting",
+            "updatedURLs": "25",
+            "failedURLs": "0"
+        },
+        {
+            "requesID": "TMP-00003",
+            "templateName": "GA-Vascular_Treatment 3_New",
+            "userName": "abc",
+            "createdAt": "11-jan-2021 , 11:30 AM",
+            "status": "Released",
+            "updatedURLs": "25",
+            "failedURLs": "0",
+            "approvedBy":"Garima"
+           
+        },
+        {
+            "requesID": "TMP-00004",
+            "templateName": "GA-Vascular_Treatment 4_New",
+            "userName": "test",
+            "createdAt": "10-jan-2021 , 03:30 PM",
+            "status": "Failed",
+            "updatedURLs": "20",
+            "failedURLs": "20"
+        },
+        {
+            "requesID": "TMP-00005",
+            "templateName": "GA-Vascular_Treatment 5_New",
+            "userName": "test1",
+            "createdAt": "11-jan-2021 , 11:30 AM",
+            "status": "Waiting",
+            "updatedURLs": "25",
+            "failedURLs": "0"
+        },
+        {
+            "requesID": "TMP-00006",
+            "templateName": "GA-Vascular_Treatment 6_New",
+            "userName": "test2",
+            "createdAt": "11-jan-2021 , 11:30 AM",
+            "status": "Released",
+            "updatedURLs": "25",
+            "failedURLs": "0",
+            "approvedBy":"Garima Raghav"
+        }
+    ]
+}

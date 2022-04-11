@@ -1,0 +1,73 @@
+h4.modal-title {
+  font-size: 15px;
+  padding: 15px;
+  border-bottom: solid 2px #eaeff0;
+  color: #005ca1;
+  font-weight: bold;
+}
+
+.view-box {
+  padding: 15px;
+}
+
+.view-box ul {
+  padding: 0px;
+  list-style: none;
+  margin: 0px;
+}
+
+.view-box ul li {
+  width: 100%;
+  display: inline-block;
+  padding: 6px 0px;
+}
+
+.view-box ul li .view-title {
+  width: 40%;
+  display: inline-block;
+  color: #212529;
+  font-weight: bold;
+}
+
+.view-box ul li .view-status {
+  width: 57%;
+  display: inline-block;
+}
+
+.view-section.hide {
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  right: -400px;
+  height: 100%;
+  z-index: 999;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -ms-transition: all 1s;
+  -moz-transition: all 1s;
+  display: unset !important;
+}
+
+.view-section.show {
+  display: block;
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  background-color: #fff;
+  right: 0;
+  z-index: 9999;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -ms-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.view-section.show .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 24px;
+}
